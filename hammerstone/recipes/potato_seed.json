@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/recipe.schema.json",
+	"hammerstone:recipe_definition": {
+		"description": {
+			"identifier": "inca:potato_seed",
+			"name": "Craft Seed Potato",
+			"plural": "Craft Seed Potatoes"
+		},
+		"meta": {
+			"author": "SirLich"
+		},
+		"components": {
+			"hammerstone:recipe": {
+				"classification": "craft",
+				"preview_object": "potato_seed"
+			},
+			"hammerstone:output": {
+				"output_by_object": [
+					{
+						"input": "inca:potato",
+						"output": [
+							"inca:potato_seed",
+							"inca:potato_seed",
+							"inca:potato_seed"
+						]
+					}
+				]
+			}
+		}
+	}
+}

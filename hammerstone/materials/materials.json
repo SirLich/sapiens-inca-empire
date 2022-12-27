@@ -8,7 +8,7 @@
 			{
 				"identifier": "potato",
 				"color": [
-					0, 1, 0
+					0.4313725, 0.2313725, 0.180392
 				],
 				"metal": 0,
 				"roughness": 1

@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "inca:potato_seed",
+			"name": "Potato Seed",
+			"plural": "Potato Seeds"
+		},
+		"meta": {
+			"author": "SirLich"
+		},
+		"components": {
+			"hammerstone:object": {
+				"model": "potato_seed",
+				"physics": true,
+				"scale": 1
+			},
+			"hammerstone:storage_link": {
+				"identifier": "inca:potato_storage"
+			},
+			"hammerstone:decoration": {
+				"enabled": true
+			}
+		}
+	}
+}
