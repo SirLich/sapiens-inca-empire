@@ -4,15 +4,15 @@
 		"description": {
 			"identifier": "inca:potato_seed",
 			"name": "Craft Seed Potato",
-			"plural": "Craft Seed Potatoes"
+			"plural": "Craft Seed Potatoes",
+			"summary": "Toes"
 		},
 		"meta": {
 			"author": "SirLich"
 		},
 		"components": {
 			"hammerstone:recipe": {
-				"classification": "craft",
-				"preview_object": "potato_seed"
+				"preview_object": "inca:potato_seed"
 			},
 			"hammerstone:output": {
 				"output_by_object": [
@@ -29,7 +29,7 @@
 			"hammerstone:build_sequence": {
 				"build_sequence": {
 					"action": "chop",
-					"tool": "carving",
+					"tool": "carving"
 				}
 			}
 		}
