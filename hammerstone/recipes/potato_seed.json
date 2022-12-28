@@ -25,6 +25,12 @@
 						]
 					}
 				]
+			},
+			"hammerstone:build_sequence": {
+				"build_sequence": {
+					"action": "chop",
+					"tool": "carving",
+				}
 			}
 		}
 	}
