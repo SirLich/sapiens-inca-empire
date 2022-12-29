@@ -1,0 +1,15 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/storage.schema.json",
+	"hammerstone:storage_definition": {
+		"description": {
+			"identifier": "inca:lightsaber_storage",
+			"name": "Saber Storage"
+		},
+		"components": {
+			"hammerstone:storage": {
+				"preview_object": "inca:lightsaber"
+			},
+			"hammerstone:carry": {}
+		}
+	}
+}

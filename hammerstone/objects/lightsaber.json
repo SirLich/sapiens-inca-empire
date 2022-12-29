@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "inca:lightsaber",
+			"name": "Lightsaber",
+			"plural": "Lightsabers"
+		},
+		"meta": {
+			"author": "SirLich"
+		},
+		"components": {
+			"hammerstone:object": {
+				"model": "lightsaber",
+				"physics": true
+			},
+			"hammerstone:decoration": {
+				"enabled": true
+			},
+			"hammerstone:storage_link": {
+				"identifier": "inca:lightsaber_storage"
+			},
+			"hammerstone:tool": {
+				"tool_usage": [
+					{
+						"tool_type": "weaponKnife"
+					}
+				]
+			}
+		}
+	}
+}

@@ -12,6 +12,26 @@
 				],
 				"metal": 0,
 				"roughness": 1
+			},
+			{
+				"identifier": "lightsaberBlade",
+				"color": [
+					0.8549019, 
+					0.2588235, 
+					0.9607843
+				],
+				"metal": 1,
+				"roughness": 0
+			},
+			{
+				"identifier": "lightsaberHilt",
+				"color": [
+					0.207843, 
+					0.207843, 
+					0.207843
+				],
+				"metal": 0.7,
+				"roughness": 0.5
 			}
 		]
 	}

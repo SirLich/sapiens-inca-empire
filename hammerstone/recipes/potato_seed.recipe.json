@@ -3,16 +3,35 @@
 	"hammerstone:recipe_definition": {
 		"description": {
 			"identifier": "inca:potato_seed",
-			"name": "Craft Seed Potato",
-			"plural": "Craft Seed Potatoes",
-			"summary": "Toes"
+			"name": "Seed Potato",
+			"plural": "Seed Potatoes",
+			"summary": "A starchy description"
 		},
 		"meta": {
 			"author": "SirLich"
 		},
 		"components": {
 			"hammerstone:recipe": {
-				"preview_object": "inca:potato_seed"
+				"preview_object": "inca:potato_seed",
+				"classification": "craft"
+			},
+			"hammerstone:requirements": {
+				"skills": [
+					"butchery"
+				],
+				"tool_types": [
+					"knapping"
+				],
+				"resources": [
+					{
+						"resource": "inca:potato",
+						"action": {
+							"action_type": "inspect",
+							"duration": 0.5,
+							"duration_without_skill": 0.4
+						}
+					}
+				]
 			},
 			"hammerstone:output": {
 				"output_by_object": [
@@ -27,10 +46,7 @@
 				]
 			},
 			"hammerstone:build_sequence": {
-				"build_sequence": {
-					"action": "chop",
-					"tool": "carving"
-				}
+				"action_sequence": "toolAssembly"
 			}
 		}
 	}
