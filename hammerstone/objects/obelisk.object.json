@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "inca:obelisk",
+			"name": "Obelisk",
+			"plural": "Obelisks"
+		},
+		"meta": {
+			"author": "SirLich"
+		},
+		"components": {
+			"hammerstone:object": {
+				"model": "obelisk",
+				"physics": false
+			},
+			"hammerstone:decoration": {
+				"enabled": false
+			},
+			"hammerstone:harvestable": {
+				"resources_to_harvest": [
+					"inca:potato",
+					"inca:potato",
+					"inca:potato_seed"
+				]
+			},
+			"hammerstone:plans": {
+				"available_plans": "availablePlansForMineableObjects"
+			}
+		}
+	}
+}

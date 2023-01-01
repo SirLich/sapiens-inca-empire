@@ -14,6 +14,9 @@
 				"model": "lightsaber",
 				"physics": true
 			},
+			"hammerstone:resource": {
+				"create_resource": true
+			},
 			"hammerstone:decoration": {
 				"enabled": true
 			},
@@ -23,7 +26,8 @@
 			"hammerstone:tool": {
 				"tool_usage": [
 					{
-						"tool_type": "weaponKnife"
+						"tool_type": "weaponKnife",
+						"damage": 1
 					}
 				]
 			}

@@ -15,6 +15,9 @@
 				"physics": true,
 				"scale": 1
 			},
+			"hammerstone:resource": {
+				"create_resource": true
+			},
 			"hammerstone:storage_link": {
 				"identifier": "inca:potato_storage"
 			},
