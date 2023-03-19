@@ -1,0 +1,13 @@
+{
+	"hammerstone:building_definition": {
+		"meta": {
+			"author": "SirLich"
+		},
+		"description": {
+			"identifier": "inca:table"
+		},
+		"components": {
+			
+		}
+	}
+}
