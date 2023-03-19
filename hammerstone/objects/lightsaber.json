@@ -4,30 +4,33 @@
 		"description": {
 			"identifier": "inca:lightsaber",
 			"name": "Lightsaber",
-			"plural": "Lightsabers"
+			"plural": "Lightsabers",
+			"scope": [
+				"local base_damage = 10"
+			]
 		},
 		"meta": {
 			"author": "SirLich"
 		},
 		"components": {
-			"hammerstone:object": {
+			"hs_object": {
 				"model": "lightsaber",
 				"physics": true
 			},
-			"hammerstone:resource": {
+			"hs_resource": {
 				"create_resource": true
 			},
-			"hammerstone:decoration": {
+			"hs_decoration": {
 				"enabled": true
 			},
-			"hammerstone:storage_link": {
+			"hs_storage_link": {
 				"identifier": "inca:lightsaber_storage"
 			},
-			"hammerstone:tool": {
+			"hs_tool": {
 				"tool_usage": [
 					{
 						"tool_type": "weaponKnife",
-						"damage": 1
+						"damage": "base_damage * 10"
 					}
 				]
 			}

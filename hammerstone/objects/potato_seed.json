@@ -10,18 +10,18 @@
 			"author": "SirLich"
 		},
 		"components": {
-			"hammerstone:object": {
+			"hs_object": {
 				"model": "potato_seed",
 				"physics": true,
 				"scale": 1
 			},
-			"hammerstone:resource": {
+			"hs_resource": {
 				"create_resource": true
 			},
-			"hammerstone:storage_link": {
+			"hs_storage_link": {
 				"identifier": "inca:potato_storage"
 			},
-			"hammerstone:decoration": {
+			"hs_decoration": {
 				"enabled": true
 			}
 		}

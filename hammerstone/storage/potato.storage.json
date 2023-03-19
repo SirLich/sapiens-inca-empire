@@ -6,7 +6,7 @@
             "name": "Potato Storage"
         },
         "components": {
-            "hammerstone:carry": {
+            "hs_carry": {
                 "carry_count": {
                     "normal": 4,
                     "limited_ability": 2,
@@ -20,7 +20,7 @@
                     0
                 ]
             },
-            "hammerstone:storage": {
+            "hs_storage": {
                 "preview_object": "inca:potato",
                 "size": [
                     0.12,

@@ -6,10 +6,10 @@
 			"name": "Saber Storage"
 		},
 		"components": {
-			"hammerstone:storage": {
+			"hs_storage": {
 				"preview_object": "inca:lightsaber"
 			},
-			"hammerstone:carry": {}
+			"hs_carry": {}
 		}
 	}
 }

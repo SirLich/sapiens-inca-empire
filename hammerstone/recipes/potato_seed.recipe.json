@@ -11,11 +11,11 @@
 			"author": "SirLich"
 		},
 		"components": {
-			"hammerstone:recipe": {
+			"hs_recipe": {
 				"preview_object": "inca:potato_seed",
 				"classification": "craft"
 			},
-			"hammerstone:requirements": {
+			"hs_requirements": {
 				"skills": [
 					"butchery"
 				],
@@ -33,7 +33,7 @@
 					}
 				]
 			},
-			"hammerstone:output": {
+			"hs_output": {
 				"output_by_object": [
 					{
 						"input": "inca:potato",
@@ -45,7 +45,7 @@
 					}
 				]
 			},
-			"hammerstone:build_sequence": {
+			"hs_build_sequence": {
 				"action_sequence": "toolAssembly"
 			}
 		}
