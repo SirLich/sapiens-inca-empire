@@ -4,10 +4,7 @@
 		"description": {
 			"identifier": "inca:lightsaber",
 			"name": "Lightsaber",
-			"plural": "Lightsabers",
-			"scope": [
-				"local base_damage = 10"
-			]
+			"plural": "Lightsabers"
 		},
 		"meta": {
 			"author": "SirLich"
@@ -30,7 +27,7 @@
 				"tool_usage": [
 					{
 						"tool_type": "weaponKnife",
-						"damage": "base_damage * 10"
+						"damage": 10
 					}
 				]
 			}
