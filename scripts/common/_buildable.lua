@@ -29,9 +29,11 @@ function mod:onload(buildable)
 		modelName = "totem",
 		inProgressGameObjectTypeKey = "build_totem",
 		finalGameObjectTypeKey = "totem",
+
 		name = "Totem",
 		plural = "Totems",
 		summary = "Build a Totem",
+		
 		buildCompletionPlanIndex = plan.types.light.index,
 		classification = constructable.classifications.build.index,
 		allowBuildEvenWhenDark = false,

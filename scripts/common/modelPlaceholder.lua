@@ -23,7 +23,7 @@ function mod:onload(modelPlaceholder)
             },
             { 
                 key = "rock_1",
-                defaultModelName = "craftArea_rock1",
+                defaultModelName = "rock1",
             },
             {
                 key = "branch_store",

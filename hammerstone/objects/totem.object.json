@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "totem",
+			"name": "Totem",
+			"plural": "Totems",
+			"summary": "A totem pole"
+		},
+		"components": {
+			"hs_object": {
+				"model": "totem"
+			},
+			"hs_buildable": {
+				"skills": [
+					"basicBuilding"
+				],
+				"resources": [
+					{
+						"resource": "branch",
+						"count": 2
+					},
+					{
+						"resource": "rock"
+					}
+				]
+			}
+		}
+	}
+}
