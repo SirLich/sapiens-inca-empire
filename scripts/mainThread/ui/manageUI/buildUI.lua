@@ -15,6 +15,8 @@ function mod:onload(buildUI)
         super_createItemList()
         
         table.insert(buildUI.itemList, constructable.types.totem.index)
+        table.insert(buildUI.itemList, constructable.types.stick_fence.index)
+        table.insert(buildUI.itemList, constructable.types.foundation.index)
     end
 end
 

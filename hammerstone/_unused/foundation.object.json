@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "foundation",
+			"name": "Foundation",
+			"plural": "Foundations",
+			"summary": "A building foundation."
+		},
+		"components": {
+			"hs_object": {
+				"model": "mudBrickFloor4x4"
+			},
+			"hs_buildable": {
+				"skills": [
+					"mudBrickBuilding"
+				],
+				"resources": [
+					{
+						"resource": "mudBrickDry",
+						"count": 8
+					}
+				]
+			}
+		}
+	}
+}

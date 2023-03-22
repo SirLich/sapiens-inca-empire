@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "stick_fence",
+			"name": "Stick Fence",
+			"plural": "Stick Fences",
+			"summary": "A simple stick fence, for decoration."
+		},
+		"components": {
+			"hs_object": {
+				"model": "stick_fence"
+			},
+			"hs_buildable": {
+				"skills": [
+					"basicBuilding"
+				],
+				"resources": [
+					{
+						"resource": "branch",
+						"count": 7
+					}
+				]
+			}
+		}
+	}
+}

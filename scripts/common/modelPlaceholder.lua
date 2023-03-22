@@ -14,6 +14,19 @@ function mod:onload(modelPlaceholder)
     modelPlaceholder.initRemaps = function()
         super_initRemaps()
 
+        modelPlaceholder:addModel("stick_fence", {
+            { 
+                multiKeyBase = "branch",
+                multiCount = 7,
+                defaultModelName = "branch",
+                resourceTypeIndex = resource.types.branch.index,
+            },
+            {
+                key = "branch_store",
+                offsetToStorageBoxWalkableHeight = true,
+            }
+        })
+
         modelPlaceholder:addModel("totem", {
             { 
                 multiKeyBase = "branch",
