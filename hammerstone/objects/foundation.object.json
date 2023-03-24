@@ -9,15 +9,19 @@
 		},
 		"components": {
 			"hs_object": {
-				"model": "splitLogFloor4x4"
+				"model": "splitLogFloor4x4",
+				"props": {
+					"test": "test"
+				}
 			},
 			"hs_buildable": {
-				"buildable_props": {
+				"props": {
 					"allowXZRotation": false
 				},
 				"skills": [
 					"woodBuilding"
 				],
+				"sequence": "researchBuildSequence",
 				"resources": [
 					{
 						"resource": "splitLog",

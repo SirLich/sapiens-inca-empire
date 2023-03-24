@@ -12,6 +12,7 @@
 				"model": "stick_fence"
 			},
 			"hs_buildable": {
+				"sequence": "researchBuildSequence",
 				"skills": [
 					"basicBuilding"
 				],

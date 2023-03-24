@@ -12,6 +12,7 @@
 				"model": "totem"
 			},
 			"hs_buildable": {
+				"sequence": "researchBuildSequence",
 				"skills": [
 					"basicBuilding"
 				],
